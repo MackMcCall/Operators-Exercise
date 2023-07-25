@@ -32,7 +32,7 @@ namespace OperatorExercise
 
             //End of Excersice 1
 
-            AreaOfCircle();
+            var circleArea = AreaOfCircle();
         }
         public static double AreaOfCircle()
         {
@@ -46,7 +46,7 @@ namespace OperatorExercise
 
             double area = Math.PI * Math.Pow(radius, 2);
 
-            Console.WriteLine($"The area of a circle with radius of 20 is {radius}");
+            Console.WriteLine($"The area of a circle with radius of {radius} is {area}");
 
             return area;
         }
